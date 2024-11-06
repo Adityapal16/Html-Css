@@ -1,49 +1,60 @@
-/* a:link{
-    color: blue;
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-a:hover{
-    color: hsl(203, 86%, 54%);
-    font-size: 1.1em;
+
+/* Page Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F6F6F6;
 }
-a:active{
-    color: hsl(264, 92%, 50%);
-    font-size: 1.1em;
+
+/* Card Container */
+.card-container {
+    display: flex;
+    gap: 20px;
 }
-a:visited{
-    color: grey;
-} */
 
-
-
-
-/* li:hover{
-    background-color: hsl(60, 90%, 61%);
+/* Card Styles */
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
-li:not(hover){
-    background-color: grey;
-} */
 
-
-
-/* 
-li:nth-child(5){                                /* 2,3n,3n+1*/
-    /* background-color: red;
-}  */ 
-
-
-
-
-
-
-
-
-
-#box p{
-    background-color: crimson;
-    padding: 10px;
-    display: none;
+/* Shadow effect on hover */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
-#box:hover p{
-    display: block;
-    
+
+/* nth-child effect */
+.card:nth-child(2) {
+    background-color: #e8f1fd;
+}
+.card:nth-child(3) {
+    background-color: #e1f5f2;
+}
+
+/* Card Content */
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 0.9em;
+    color: #666;
 }
