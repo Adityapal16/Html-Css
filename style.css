@@ -1,17 +1,8 @@
-
-.container{
-    background-color: azure;
-    height: 100vh;
-}
-.box{
-     box-sizing: border-box;         /* we can also configure this with  the CSS property box-sizing: border-box; */
-
-    background-color: maroon;
-    border: 2px solid;
-    padding: 25px;
-    height: auto;
-    width: 50%;
-    float: left;
-    text-align: center;
-    min-height: 50%;
+body{
+    background-image: url(backpacker-7628303.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    color: whitesmoke;
 }
