@@ -1,75 +1,17 @@
-/* div{
-    background-color: hsl(198, 85%, 54%);
-    width: 100px;
-    height: auto;
-    display:block ; div is already a block  element, so this is unnecessary */
 
-/* } */
-/*span{
-    background-color: aquamarine;
-     width: 100px;  /*height and width won't work on this  element because it's an inline element */
+.container{
+    background-color: azure;
+    height: 100vh;
+}
+.box{
+     box-sizing: border-box;         /* we can also configure this with  the CSS property box-sizing: border-box; */
 
- /* height: 100px; */
-    /*display: block; here the display block works because it is not a block element */
-/* } */
- /* div{
-    background-color: hsl(198, 85%, 54%);
-    width: 100px;
+    background-color: maroon;
+    border: 2px solid;
+    padding: 25px;
     height: auto;
-    display: inline;
-} */
-/*span{
-    background-color: aquamarine;
-     width: 100px;
-     height: 100px;
-     display: inline;
-} */
-/* div{
-    background-color: hsl(198, 85%, 54%);
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-height: 50%;
 }
-span{
-    background-color: aquamarine;
-     width: 100px;
-     height: 100px;
-     display: inline-block;
-}  */
-/* div{
-    background-color: hsl(198, 85%, 54%);
-    width: 100px;
-    height: 100px;
-    display: none;
-}
-span{
-    background-color: aquamarine;
-     width: 100px;
-     height: 100px;
-     display:none;
-}  */
-/* div{
-    background-color: hsl(198, 85%, 54%);
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    visibility: hidden;
-} */
-/* span{
-    background-color: aquamarine;
-     width: 100px;
-     height: 100px;
-     display: inline-block;
-}  */
-/* div{
-    background-color: hsl(198, 85%, 54%);
-    width: 100px;
-    height: 100px;
-    display: block;
-}
-span{
-    background-color: aquamarine;
-     width: 100px;
-     height: 100px;
-     display: inline;
-} */
